@@ -1,0 +1,28 @@
+{
+  "name": "deployWallet",
+  "version": "1.0.0",
+  "description": "MS582 Rod DeValcourt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roddeval/MS582.git"
+  },
+  "author": "Rod DeValcourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roddeval/MS582/issues"
+  },
+  "homepage": "https://github.com/roddeval/MS582#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
+  }
+}
